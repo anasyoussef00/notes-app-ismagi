@@ -28,6 +28,9 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  notes_repository:
+    path: ./packages/notes_repository 
+
   flutter:
     sdk: flutter
 
@@ -35,6 +38,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  meta: ^1.8.0
+  bloc: ^8.1.1
 
 dev_dependencies:
   flutter_test:
